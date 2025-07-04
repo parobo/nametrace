@@ -2,6 +2,8 @@
 
 ``NameTrace`` is a python package to identify "real" human names and predict gender and geographical origin of the name. The idea is to allow users to e.g. take users' names on social media platforms such as X and identify real names and predict gender and possible origin of the users. This package was build to help researchers.
 
+See here for a [comprehensive blogpost about the package](https://www.paulbose.com/thisandthat/2025/nametrace/).
+
 ## Features
 
 - **Human Name Detection**: Distinguish between human names and other text (usernames, company names, etc.)
@@ -126,6 +128,20 @@ This package was built to allow gender and geographic origin precition in a simp
 - [name2nat](https://github.com/Kyubyong/name2nat/) (Kyubyong Park, 2020). I built on the data for nationalities collected by Kyubyong Park and convert these to geographic regions. I also extend his dataset by collecting the gender of the names in the dataset from Wikipedia.
 - [gender_guesser](https://github.com/lead-ratings/gender-guesser/) (ByRatings, 2016). I take a list of first names from this package, which is originally taken from a ``c`` package by [Jörg Michael (2008)](https://raw.githubusercontent.com/lead-ratings/gender-guesser/refs/heads/master/gender_guesser/data/nam_dict.txt).
 - [Gender By Name](https://www.kaggle.com/datasets/rupindersinghrana/gender-by-name) (Rupinder Singh Rana, 2024), which also contains a list of first namnes that I use for training of the human name detection.
+
+## Citation
+If you use this package, please remember to cite it:
+
+```
+@misc{
+  bose-nametrace-2025,
+  url={https://github.com/parobo/nametrace},
+  journal={GitHub},
+  author={Bose, Paul},
+  year={2025},
+  month={Jun}
+}
+```
 
 ## License
 
