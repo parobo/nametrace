@@ -18,6 +18,13 @@ See here for a [comprehensive blogpost about the package](https://www.paulbose.c
 pip install nametrace
 ```
 
+> [!NOTE]
+> nametrace requires pytorch. On some platforms, the latest versions of torch might not be supported, and you may get an error message during the installation of nametrace.
+> Actually nametrace does not require the latest version of torch. You can solve this issue by simply installing a version of torch that is compatible with your system.
+> For example, on a Mac OS 12.7 system with an Intel chip, you can only run torch<=2.2.2. So you just install pytorch first and then follow up with nametrace: 
+> ``pip install "torch==2.2.2"`` 
+> ``pip install namtrace``
+
 ## Quick Start
 
 ```python
