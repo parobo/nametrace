@@ -18,7 +18,6 @@
 
 from pathlib import Path
 from typing import Set
-import pandas as pd
 
 
 def load_name_lists(data_dir: Path) -> Set[str]:
